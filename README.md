@@ -1,8 +1,11 @@
 #teh smollest of wobots#
+
 ###_teh smollest of wobots, October 2017_###
+
 ###_By Lena Ha_###
 
 ##Descwiption##
+
 ###_This is a webpage to count numbers inputted into a form_###
 
 ##Set-up/Instawation/Wequirements##
@@ -33,6 +36,7 @@
 ##Known Bugs##
 
 ##Technologies Used##
+
 ###_This webpage uses HTML, JavaScript, and CSS_###
 
 ###Copyright (c) 2017 {Lena Ha}###

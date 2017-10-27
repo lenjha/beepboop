@@ -4,23 +4,27 @@ multiple of 3 ---> "I'm sorry, Dave.  I'm afraid I can't do that."
 
 Able to enter new number and see new results, over and over again
 
-Simple, individual behaviors with input/output examples - list in README.md
 
 
 
-SPECIFICATIONS
-It can count up to the inputted number
-  Example Input: 2
-  Example Output: [1, 2]
 
-Replace numbers with "1" with a "boop!"
-  Example Input: 2
-  Example Output: [boop!, 2]
 
-Replace numbers with "0" with a "beep!"
-  Example Input: 10
-  Example Output: [boop!, 2, 3, 4, 5, 6, 7, 8, 9, beep!]
 
-Replace numbers divisible by 3 with "sorry"
-  Example Input: 6
-  Example Output: [boop!, 2, sorry, 4, 5, sorry]
+count up to inputted number
+replace numbers containing "1" with "boop!"
+replace numbers containing "0" with "beep!"
+replace numbers divisible by 3 with "sorry"
+
+
+
+
+
+
+newNum = (number - 1)
+outputArray.pop(newNum)
+
+i = newNum, i < 0, i --
+  newNum = (newNum - 1)
+  outputArray.pop(newNum)
+
+loop newNum to subtract 1 from itself until it goes under 0, popping into outputArray every time
