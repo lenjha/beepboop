@@ -20,9 +20,18 @@ ul {
   border-radius: 50px;
 }
 
+.dialogue {
+  color: #91d697;
+}
+
+.didIt {
+  color: red;
+  text-align: center;
+}
+
 .info {
   margin-top: 25px;
-  background-color: #bbbbbb;
+  background-color: #999999;
   border: 8px solid white;
   border-radius: 50px;
   color: white;
@@ -32,7 +41,7 @@ ul {
 
 .jumbotron {
   margin-top: 25px;
-  background-color: #aaaaaa;
+  background-color: #999999;
   border: 8px solid;
   border-radius: 50px;
   text-align: right;
@@ -53,4 +62,5 @@ ul {
 
 #resultsDiv {
   display: none;
+  margin-bottom: 20px;
 }
