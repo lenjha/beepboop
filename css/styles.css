@@ -1,3 +1,55 @@
-h2 {
-text-align: right;
+body {
+    background-color: #cccccc;
+    color: #333333;
+}
+
+button {
+  margin: 10px;
+  background-color: #9aed9f;
+  color: #4b634d;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.info {
+  margin-top: 25px;
+  background-color: #aaaaaa;
+  border: 8px solid white;
+  border-radius: 50px;
+  text-align: justify;
+  padding: 25px;
+}
+
+.jumbotron {
+  margin-top: 25px;
+  background-color: #aaaaaa;
+  border: 8px solid;
+  border-radius: 50px;
+  text-align: right;
+  color: #eeeeee;
+}
+
+.results-card {
+  border-radius: 50px;
+}
+
+.wobot {
+  margin-bottom: 20px;
+}
+
+#backwards {
+  float: right;
+}
+
+#resultsDiv {
+  display: none;
 }

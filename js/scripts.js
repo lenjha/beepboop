@@ -7,23 +7,36 @@ function counting (number, name) {
     var newNumberString = newNumber.toString();
 
     if (newNumberString.includes("1") === true) {
-      outputArray.push(" *boop!*");
+      outputArray.push(" ﹡ᵇᵒᵒᵖ﹗﹡");
     }
     if (newNumberString.includes("0") === true) {
-      outputArray.push(" *beep!*")
+      outputArray.push(" ﹡ᵇᵉᵉᵖ﹗﹡")
     }
       else if (newNumber % 3 === 0 && 0 < newNumber) {
-        outputArray.push(" sowwie " + name + "!");
+        outputArray.push(" ˢᵒʷʷᶦᵉ, " + name + "﹗ <li>⁽ᵈᵃᵗ ʷᵘᶻ ᵃ ʰᶦᶜᶜᵘᵖˢ⋅⋅⋅⁾</li>");
       }
 
     if ((newNumberString.includes("1") === false) && (newNumberString.includes("0") === false) && (newNumber % 3 !== 0)) {
       outputArray.push(" " + newNumber);
     }
-
-    //REMOVE ALL NUMBERS CONTAINING 1 OR 2 FROM OUTPUTARRAY
   }
+  outputArray.forEach(function(output) {
+    $("#results").prepend("<li>" + output + "</li>");
+  });
+  $("#resultsDiv").show();
 }
 
+function nameProcess (name) {
+  if (name === "Tyler") {
+    $("#results").prepend("ᵒʰᵃᶦ ᵘ ᵐᵘˢ ᵇᵉ ᵗᵉᵃᶜʰᵘʳ﹗");
+  }
+  if (name === "Lena") {
+    $("#results").prepend("ʸ ᵘ ᵐᵉᵏ ᵐᵉ⋅⋅⋅﹖");
+  }
+  if (name.length = 3) {
+    $("#results").prepend("ˢʰᵃʷᵗ ᶰᵃᵉᵐᵘ﹗");
+  }
+}
 
 
 //front-end logic
@@ -31,10 +44,14 @@ $(document).ready(function() {
   $("#inputForm").submit(function(event) {
     var name = ($("#name").val());
     var number = parseInt($("#userInput").val());
-    var numberLength = (number.toString().length)
-    alert(name)
+
+    nameProcess(name);
     counting(number, name);
-    $("#results").append("<li>" + outputArray + "</li>");
+    var backwardsCount = outputArray.reverse()
+
+    $("#backwards").click(function(event) {
+      $("#results").prepend("<li>" + backwardsCount + "</li>");
+    });
     event.preventDefault();
   }); //#inputForm submission event!
 }); //document-ready!

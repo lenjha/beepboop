@@ -34,6 +34,7 @@
 
 
 ##Known Bugs##
+  * Name inputs after the first iteration are replaced by the first iteration's
 
 ##Technologies Used##
 
