@@ -19,12 +19,5 @@ replace numbers divisible by 3 with "sorry"
 
 
 
-
-newNum = (number - 1)
-outputArray.pop(newNum)
-
-i = newNum, i < 0, i --
-  newNum = (newNum - 1)
-  outputArray.pop(newNum)
-
-loop newNum to subtract 1 from itself until it goes under 0, popping into outputArray every time
+if the number includes 1, outputArray.push("boop!")
+if the number includes 2, outputArray.push("beep!")

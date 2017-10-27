@@ -1,23 +1,26 @@
 //back-end logic
 var outputArray = [];
-// var newNum = 0
-
-
-
-
 
 function counting (number) {
-  for (var i = 0; i <= number; i++){
-    outputArray.push(i);
+  for (var newNumber = 0; newNumber <= number; newNumber++){
+
+    var newNumberString = newNumber.toString();
+
+    if (newNumberString.includes("1") === true) {
+      outputArray.push("boop!");
+    }
+    if (newNumberString.includes("0") === true) {
+      outputArray.push("beep!")
+    }
+      else if (newNumber % 3 === 0 && 0 < newNumber) {
+        outputArray.push(" sorry Dave");
+      }
+
+    outputArray.push(" " + newNumber);
+
+    //REMOVE ALL NUMBERS CONTAINING 1 OR 2 FROM OUTPUTARRAY
   }
 }
-//
-
-
-
-
-
-
 
 
 
@@ -26,9 +29,10 @@ $(document).ready(function() {
   $("#inputForm").submit(function(event) {
     event.preventDefault();
     var number = parseInt($("#userInput").val());
-    // outputArray.pop(newNum)
+    // var name = $("#nameInput").val();
+    var numberLength = (number.toString().length)
     counting(number);
-    alert(outputArray);
-
+    $("#results").append(outputArray + " ");
+    // alert("This number is " + numberLength + " digits long.")
   }); //#inputForm submission event!
 }); //document-ready!
