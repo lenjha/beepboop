@@ -34,12 +34,10 @@
 
 
 ##Known Bugs##
-<<<<<<< HEAD
   * Name inputs after the first iteration are replaced by the first iteration's for up to the previous iteration's ending
   * Counting backwards layout is not listing properly
-=======
-  * Name inputs after the first iteration are replaced by the first iteration's
->>>>>>> 0de4d874d9b9004317701c7e9043252ac4c6902e
+  * ... I'm not sure what happened, but it will sometimes answer multiple times (post-merge-issues)...
+
 
 ##Technologies Used##
 
