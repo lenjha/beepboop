@@ -20,7 +20,6 @@ ul {
   border-radius: 50px;
 }
 
-<<<<<<< HEAD
 .dialogue {
   color: #91d697;
 }
@@ -36,24 +35,13 @@ ul {
   border: 8px solid white;
   border-radius: 50px;
   color: white;
-=======
-.info {
-  margin-top: 25px;
-  background-color: #aaaaaa;
-  border: 8px solid white;
-  border-radius: 50px;
->>>>>>> 0de4d874d9b9004317701c7e9043252ac4c6902e
   text-align: justify;
   padding: 25px;
 }
 
 .jumbotron {
   margin-top: 25px;
-<<<<<<< HEAD
   background-color: #999999;
-=======
-  background-color: #aaaaaa;
->>>>>>> 0de4d874d9b9004317701c7e9043252ac4c6902e
   border: 8px solid;
   border-radius: 50px;
   text-align: right;
@@ -74,8 +62,5 @@ ul {
 
 #resultsDiv {
   display: none;
-<<<<<<< HEAD
   margin-bottom: 20px;
-=======
->>>>>>> 0de4d874d9b9004317701c7e9043252ac4c6902e
 }

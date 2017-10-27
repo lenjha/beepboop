@@ -40,7 +40,7 @@ function nameProcess (name, number) {
     $("#results").prepend("<span class='dialogue'>⋅⋅⋅ ᵈᵃ'ˢ ᵃ ʷᵉᵃʷʷʸ ʷᵒᶰᵍ ᶰᵃᵉᵐᵘ⋅⋅⋅</span>");
   }
   if (number = 7) {
-    $("#results").prepend("<span class='dialogue'>ˢʰᵉᵇᵇᵉᶰ, ᵐᵃʰ ᶠᵃᵛ ᶰᵘᵐᵇᵃʰ﹗</span>");
+    $("#results").prepend("<span class='dialogue'>ˢʰᵉᵇᵇᵉᶰ ᵐᵃʰ ᶠᵃᵛ ᶰᵘᵐᵇᵃʰ﹗</span>");
   }
 }
 
