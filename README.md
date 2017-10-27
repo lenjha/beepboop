@@ -34,7 +34,8 @@
 
 
 ##Known Bugs##
-  * Name inputs after the first iteration are replaced by the first iteration's
+  * Name inputs after the first iteration are replaced by the first iteration's for up to the previous iteration's ending
+  * Counting backwards layout is not listing properly
 
 ##Technologies Used##
 

@@ -22,9 +22,10 @@ ul {
 
 .info {
   margin-top: 25px;
-  background-color: #aaaaaa;
+  background-color: #bbbbbb;
   border: 8px solid white;
   border-radius: 50px;
+  color: white;
   text-align: justify;
   padding: 25px;
 }
